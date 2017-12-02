@@ -1,0 +1,11 @@
+[
+    {
+        "type": "MOD_INFO",
+        "ident": "timebandit",
+        "name": "Time Jump Malfunction",
+        "authors": [ "Kettle Swordfang" ],
+        "description": "Created by The Order to be the ultimate thief, grafted with all you may need, and sent back countless times to steal artifacts before they were lost to the shadows of history.",
+        "category": "none",
+        "dependencies": [ "dda" ]
+    }
+]
