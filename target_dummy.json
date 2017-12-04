@@ -1,5 +1,25 @@
 [
     {
+        "result": "gs_unplaced_target",
+        "type": "recipe",
+        "category": "CC_OTHER",
+        "subcategory": "CSC_OTHER_TRAPS",
+        "skill_used": "fabrication",
+        "difficulty": 5,
+        "skills_required": [ "gun", 1 ],
+        "time": 20000,
+        "book_learn": [
+            [ "mag_guns", 2 ],
+            [ "mag_pistol", 2 ],
+            [ "mag_rifle", 2 ]
+        ],
+        "components": [
+            [ [ "rag", 10 ] ],
+            [ [ "2x4", 3 ] ],
+            [ [ "straw_pile", 1 ] ]
+        ]
+    },
+    {
         "type":"GENERIC",
         "category": "other",
         "id": "broken_ts_target",
@@ -37,5 +57,27 @@
             "place_randomly": false
         },
         "flags": [ "TRADER_AVOID" ]
+    },
+    {
+        "id": "mon_ts_target",
+        "type": "MONSTER",
+        "name": "active practice target",
+        "description": "A placed target for shooting practice.  It looks like a zombie scarecrow.",
+        "default_faction": "defense_bot",
+        "species": [ "ROBOT" ],
+        "diff": 20,
+        "size": "MEDIUM",
+        "hp": 1000,
+        "speed": 1,
+        "material": [ "wood", "cotton" ],
+        "symbol": "@",
+        "color": "red",
+        "aggression": 1,
+        "morale": 1,
+        "armor_bash": 1,
+        "armor_cut": 1,
+        "vision_day": 1,
+        "death_function": [ "BROKEN" ],
+        "flags": [ "SEES", "NOHEAD", "NO_BREATHE", "IMMOBILE" ]
     }
 ]

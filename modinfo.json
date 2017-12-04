@@ -1,0 +1,11 @@
+[
+	{
+		"type": "MOD_INFO",
+		"ident": "randomkettlemods",
+		"name": "random cataclysm bits",
+		"authors": [ "Kettle Swordfang" ],
+		"description": "Adds a bunch of random little things.",
+		"category": "none",
+		"dependencies": [ "dda" ]
+	}
+]

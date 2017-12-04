@@ -1,0 +1,166 @@
+[
+{
+  "type" : "recipe",
+  "result": "nec_jogiri",
+  "category": "CC_WEAPON",
+  "subcategory": "CSC_WEAPON_CUTTING",
+  "skill_used": "fabrication",
+  "difficulty": 3,
+  "skills_required" : [ "survival", 2 ],
+  "time": 6000,
+  "reversible": true,
+  "autolearn": true,
+  "qualities":[
+    {"id":"HAMMER","level":3}
+  ], 
+  "components": [
+    [
+      [ "machete", 1 ],
+      [ "knife_butcher", 1 ],
+      [ "katana_inferior", 1 ],
+      [ "wakizashi_inferior", 1 ],
+      [ "jian_inferior", 1 ],
+      [ "scimitar_inferior", 1 ],
+      [ "cutlass_inferior", 1 ],
+      [ "blade", 1 ]
+    ],
+    [
+      ["circsaw_blade" , 1 ],
+      ["hacksaw" , 1 ],
+      ["saw" , 1]
+    ],
+    [
+      [ "knife_steak" , 1],
+      [ "fork" , 1],
+      [ "spike", 2 ]
+    ],
+    [
+      [ "nail", 10 ]
+    ],
+    [
+      [ "duct_tape", 50 ]
+    ]
+  ]
+},
+{
+  "type" : "recipe",
+  "result": "nec_fine_katana",
+  "category": "CC_WEAPON",
+  "subcategory": "CSC_WEAPON_CUTTING",
+  "skill_used": "fabrication",
+  "difficulty": 10,
+  "time": 480000,
+  "book_learn": [[ "textbook_weapeast", 8 ]],
+  "qualities": [
+    {"id":"HAMMER","level":3},
+    { "id": "CHISEL", "level": 3 }
+  ],
+  "tools": [
+      [
+       ["tongs", -1]
+      ],
+      [
+       ["anvil", -1]
+      ],
+      [
+       ["swage", -1]
+      ],
+      [
+      ["forge", 500],
+       [ "oxy_torch", 100]
+      ]
+   ],
+  "components":
+    [
+     [
+      [ "steel_lump", 2 ],
+      [ "steel_chunk", 8 ],
+      [ "scrap", 24 ]
+     ],
+     [
+      [ "2x4", 2 ],
+      [ "stick", 4 ]
+     ],
+     [
+      [ "fur", 2 ],
+      [ "leather", 2 ]
+     ],
+     [
+      [ "charcoal", 5 ],
+      [ "coal_lump", 5 ]
+     ]
+    ]
+},
+{
+  "type" : "recipe",
+  "result": "nec_ball_chain",
+  "category": "CC_WEAPON",
+  "subcategory": "CSC_WEAPON_BASHING",
+  "skill_used": "fabrication",
+  "difficulty": 7,
+  "time": 240000,
+  "autolearn": true,
+  "qualities": [
+    {"id":"HAMMER","level":3},
+    { "id": "CHISEL", "level": 3 }
+  ],
+    "tools": [
+      [ [ "tongs", -1 ] ],
+      [ [ "anvil", -1 ] ],
+      [ [ "crucible", -1 ], [ "crucible_clay", -1 ]],
+      [ ["forge", 300], [ "oxy_torch", 60]]
+    ],
+  "components":
+    [
+     [
+      [ "steel_lump", 3 ],
+      [ "steel_chunk", 12 ],
+      [ "scrap", 32 ]
+     ],
+     [
+      [ "chain", 1 ]
+     ],
+     [
+      [ "2x4", 2 ],
+      [ "stick", 4 ]
+     ]
+    ]
+},
+{
+  "type" : "recipe",
+  "result": "nec_assasin_blade",
+  "category": "CC_WEAPON",
+  "subcategory": "CSC_WEAPON_PIERCING",
+  "skill_used": "fabrication",
+  "difficulty": 6,
+  "skills_required" : [ "melee", 3 ],
+  "time": 30000,
+  "decomp_learn": 4,
+  "book_learn": [["book_icef", 3] , ["textbook_mechanics", 3] , ["textbook_carpentry", 3],[ "textbook_mechanics", 4 ] , [ "recipe_melee", 5 ]],
+  "qualities":[
+    {"id":"HAMMER","level":3},
+    {"id":"SAW_M","level":1},
+    {"id":"SCREW","level":1}
+  ], "tools": [
+    [
+      [ "soldering_iron", 20 ],
+      [ "toolset", 20 ]
+    ]
+  ],
+  "components": [
+    [
+      [ "blade", 2 ]
+    ],
+    [
+      [ "spring", 2 ]
+    ],
+    [
+      [ "leather", 4 ]
+    ],
+    [
+      [ "steel_chunk", 2 ],
+      [ "scrap", 6 ]
+    ]
+  ]
+}
+]

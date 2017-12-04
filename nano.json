@@ -1,0 +1,32 @@
+[
+    {
+        "id": "nano_dispenser",
+        "type": "TOOL",
+        "category": "tools",
+        "name": "nanobot dispenser",
+        "description": "Fix shit right up.",
+        "weight": 30,
+        "volume": 14,
+        "price": 11000,
+        "to_hit": -1,
+        "bashing": 1,
+        "material": [ "plastic", "aluminum" ],
+        "symbol": ";",
+        "color": "light_gray",
+        "ammo": "battery",
+        "max_charges": 40,
+        "use_action" : [
+            {
+            "type" : "heal",
+            "name" : "Apply",
+            "charges_per_use": 40,
+            "move_cost": 400,
+            "limb_power": 25
+            },
+            {
+            "type" : "cauterize",
+            "charges_per_use": 10
+            }
+        ]
+    }
+]
