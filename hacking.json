@@ -524,5 +524,71 @@
             "msg": "You deactivate the power glove's scout systems."
         },
         "flags": [ "LIGHT_500", "CHARGEDIM", "ELECTRIC_IMMUNE", "TRADER_AVOID" ]
+    },
+    {
+        "id": "radio_scope",
+        "type": "TOOL",
+        "category": "tools",
+        "name": "scope scouter",
+        "description": "A remote-controlled video camera on small wheels.  It has a small light attached, as well as a noise maker.",
+        "weight": 2400,
+        "volume": 4,
+        "price": 9999,
+        "to_hit": 1,
+        "bashing": 3,
+        "material": [ "plastic", "aluminum" ],
+        "symbol": "#",
+        "color": "red"
+        "ammo": "battery",
+        "initial_charges": 40,
+        "max_charges": 40,
+        "revert_to": "radio_scope",
+        "use_action": "RADIOCAR",
+        "flags": [ "RADIO_CONTAINER", "TRADER_AVOID" ]
+    },
+    {
+        "id": "radio_scope_on",
+        "copy-from": "radio_scope",
+        "type": "TOOL",
+        "name": "scope scouter (on)",
+        "name_plural": "scope scouters (on)",
+        "description": "A remote-controlled video camera on small wheels, buzzing quietly.  You could use the power glove or a remote to control it.",
+        "turns_per_charge": 2,
+        "use_action": "RADIOCARON",
+        "flags": [ "LIGHT_15", "RADIO_CONTAINER", "TRADER_AVOID" ]
+    },
+    {
+        "type": "recipe",
+        "result": "radio_scope",
+        "category": "CC_ELECTRONIC",
+        "subcategory": "CSC_ELECTRONIC_TOOLS",
+        "skill_used": "electronics",
+        "skills_required": [ "mechanics", 2 ],
+        "difficulty": 4,
+        "time": 80000,
+        "reversible": false,
+        "book_learn": [ 
+            [ "hacker_manifesto",  2] 
+        ],
+        "qualities": [
+            {"id": "SCREW_FINE", "level": 1 ,"amount": 1},
+            {"id": "HAMMER", "level": 1, "amount": 1}
+        ],
+        "tools": [
+            [["soldering_iron"  , 40],
+            ["toolset"          , 40]]
+        ],
+        "components": [
+            [["e_scrap"         ,  4]],
+            [["antenna"         ,  2]],
+            [["circuit"         ,  1]],
+            [["power_supply"    ,  1]],
+            [["plastic_chunk"   ,  2]],
+            [ ["pistol_scope", 1],
+            ["rifle_scope", 1],
+            ["acog_scope", 1],
+            ["riv_scope", 1]],
+            [["wheel_caster", 1]]
+        ]
     }
 ]
