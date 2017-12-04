@@ -1,4 +1,7 @@
 # randomcataclysmmods
+
+i used `main.lua` to add items to item groups, especially for the hacking set, so if you want to split them up check in there to see what you need to add. or remove. or just delete what you don't want. i dunno if that'll create game stopping errors. maybe. whatever.
+
 ~~~~ 
 includes: {
 
