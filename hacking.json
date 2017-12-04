@@ -538,7 +538,7 @@
         "bashing": 3,
         "material": [ "plastic", "aluminum" ],
         "symbol": "#",
-        "color": "red"
+        "color": "red",
         "ammo": "battery",
         "initial_charges": 40,
         "max_charges": 40,
