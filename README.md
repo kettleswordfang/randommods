@@ -45,6 +45,13 @@ g you, carrying the satchel.  Mind blowing.",
 ~~~~ 
 bigger on the inside. needs a portal around to create it. carries a lot of stuff.
 
+~~~~
+"ident": "unimplemented.json",
+"category": "tests",
+"description": "Nothing to see here.",
+~~~~
+things i wanna test out and debug and whatever. sometimes this breaks everything, but i try not to commit those changes. sorry.
+
 ~~"ident": "hacking.json",  
 "category": "actual whole mod, maybe?",~~  
 got big, moved this one to its own mod now, at https://github.com/kettleswordfang/hacktheplanet
