@@ -1,0 +1,41 @@
+[
+    {
+        "id": "satchel_universal",
+        "type": "ARMOR",
+        "name": "strange leather satchel",
+        "description": "This worn satchel contains the entire universe within it - including you, carrying the satchel.  Mind blowing.",
+        "weight": 500,
+        "volume": 2,
+        "price": 9999,
+        "to_hit": 1,
+        "bashing": 1,
+        "material": [ "cotton", "leather" ],
+        "symbol": "[",
+        "color": "brown",
+        "covers": [ "TORSO" ],
+        "coverage": 30,
+        "encumbrance": 4,
+        "storage": 1000000,
+        "material_thickness": 2,
+        "flags": [ "BELTED", "WATER_FRIENDLY", "TRADER_AVOID" ]
+    },
+    {
+        "result": "satchel_universal",
+        "type": "recipe",
+        "category": "CC_ARMOR",
+        "subcategory": "CSC_ARMOR_STORAGE",
+        "skill_used": "tailor",
+        "difficulty": 5,
+        "time": 100000,
+        "autolearn": false,
+        "book_learn": [[ "visions_solitude", 2 ]],
+        "using": [ [ "filament", 20 ] ],
+        "qualities": [ { "id": "SEW", "level": 1 } ],
+        "tools": [ [[ "portal", -1 ]] ],
+        "components": [
+          [ [ "leather", 14 ], [ "tanned_hide", 2 ] ],
+          [ [ "scrap", 6 ] ],
+          [ [ "bio_teleport", 1 ]]
+        ]
+    }
+]
