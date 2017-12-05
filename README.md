@@ -45,11 +45,7 @@ g you, carrying the satchel.  Mind blowing.",
 ~~~~ 
 bigger on the inside. needs a portal around to create it. carries a lot of stuff.
 
-~~~~
-"ident": "hacking.json",
-"category": "actual whole mod, maybe?",
-"description": "A magazine written by and for hackers - the best, and by far the longest running hacker zine.  This annual volume is packed with blueprints and circuit schematics.
-~~~~
-adds the `Phrack Magazine, Annual Edition` to the game and to the hacker profession loadout and to the guerilla hacker, which has recipes for a bunch of stuff.  Including a portable balance transfer machine, handhelp gps devices and the ability to create science, gas and military cards using a homemade magnetic strip encoder. Also a power glove.
+~~"ident": "hacking.json",  
+"category": "actual whole mod, maybe?",~~  
+got big, moved this one to its own mod now, at https://github.com/kettleswordfang/hacktheplanet
 
-if you want, see https://github.com/kettleswordfang/randommods/wiki for more on the phrack mod
